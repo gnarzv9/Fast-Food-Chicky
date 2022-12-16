@@ -1,0 +1,730 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+.main{
+    width: 100%;
+    height: 900px;
+    position:absolute;
+    background-image: url('images/bg.jpg');
+    background-size:cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed; 
+}
+
+.navbar ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.navbar ul a{
+    text-decoration: none;
+}
+
+.navbar ul a li{
+    display: inline;
+    color: #d13617;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 12px;
+    padding: 10px 15px;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+.navbar ul a li:hover{
+    background-color: red;
+    color:yellow;
+    border-radius: 20px;
+}
+
+.navbar img{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.main p{
+    height: 100px;
+}
+
+.big-logo{
+    height: 600px;
+    padding: 80px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.planks{
+    bottom: 900px;
+    height: 400px;
+    width: 100%;
+    background-image: url('images/planks.jpg');
+    background-size:cover;
+}
+
+.chicken{
+    background-image: url('images/chicken.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:200px;
+    height:200px;
+}
+
+.chicken:hover{
+    background-image: url('images/cooked.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.pig{
+    background-image: url('images/pig.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pig:hover{
+    background-image: url('images/cookedpig.jpg');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tekst1{
+    position:absolute;
+    bottom:-150px;
+    left:250px;
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    margin-right: 500px;
+}
+
+.mainonama{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-image: url('images/onamabg.jpg');
+    background-size:cover;
+}
+
+.tekst h1{
+    margin-top:140px;
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    color:red;
+}
+
+.tekst h3{
+    padding:10px 20px;
+    color:#f0b732;
+    font-size: 28px;
+}
+
+.tekst a{
+    color:red;
+    text-decoration:none;
+}
+
+.chicken2{
+    background-image: url('images/chicken.png');
+    height: 120px;
+    width: 120px;
+    background-size:cover;
+    display: flex;
+    position:fixed;
+    animation-name: chicky;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+.logo2{
+    background-image: url('images/logo.png');
+    height: 200px;
+    width: 200px;
+    top:460px;
+    left:800px;
+    background-size:cover;
+    display: flex;
+    position:fixed;
+    z-index: 1;
+}
+
+.plate2{
+    background-image: url('images/plate.png');
+    height: 150px;
+    width: 150px;
+    left:1750px;
+    background-size:cover;
+    display: flex;
+    position:fixed; 
+}
+
+@keyframes chicky{
+    0%{left:10px;
+        background-image:url('images/chicken.png');}
+    50%{left:850px;
+        background-image:url('images/chicken.png');}
+    51%{left:850px;
+        background-image:url('images/cooked.png');}
+    100%{left:1750px;
+        background-image:url('images/cooked.png');       
+        z-index: 1;}
+}
+
+.mainproizvodi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('images/proizvodi.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+.tekstfon1{
+    display: none;
+}
+
+.tekstfon2{
+    display: none;
+}
+
+.tekstfon3{
+    display: none;
+}
+
+.tekstfon4{
+    display: none;
+}
+
+.tabelaproizvodi{
+    margin:auto;
+    margin-top: 180px;
+    height: 680px;
+    width: 70%;
+    display: block;
+}
+
+.deo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.slika1{
+    height:100%;
+    width: 50%;
+    background-image: url('images/pljeskavica.jpg');
+    background-size: cover;
+    border: 2px solid #d13617;
+    font-size: 0px;
+}
+
+.slika2{
+    height:100%;
+    width: 50%;
+    background-image: url('images/belomeso.jpg');
+    background-size: cover;
+    border: 2px solid #d13617;
+    font-size: 0px;
+}
+
+.slika3{    
+    height: 100%;    
+    width: 50%;
+    background-image: url('images/cevapi.jpg');
+    background-size: cover;
+    border: 2px solid #d13617;
+    font-size: 0px;
+}
+
+.slika4{
+    height:100%;
+    width: 50%;
+    background-image: url('images/palacinka.jpg');
+    background-size: cover;
+    border: 2px solid #d13617;
+    font-size: 0px;
+}
+
+.slika1:hover{
+    background-image: url('images/pljeskavicad.jpg');
+    background-size: cover;
+    font-size: 40px;  
+    text-align: center;
+    font-weight: bold;
+    color: #d13617;
+    
+}
+
+.slika2:hover{
+    background-image: url('images/belomesod.jpg');
+    background-size: cover;
+    font-size: 40px;  
+    text-align: center;
+    font-weight: bold;
+    color: #d13617;
+}
+
+.slika3:hover{
+    background-image: url('images/cevapid.jpg');
+    background-size: cover;
+    font-size: 40px;  
+    text-align: center;
+    font-weight: bold;
+    color: #d13617;
+}
+
+.slika4:hover{
+    background-image: url('images/palacinkad.jpg');
+    background-size: cover;
+    font-size: 40px;  
+    text-align: center;
+    font-weight: bold;
+    color: #d13617;
+}
+
+.mainkontakt{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('images/kontakt.jpg');
+    background-size: cover;
+}
+
+.kontakt{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h2{
+    font-size:35px;
+    color:red;
+}
+
+.form p{
+    font-size: 25px;
+    color:#F6BE00;
+    margin:20px 0px 5px 0px;
+}
+
+
+input[type=text]{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    height: 25px;
+    padding: 10px 10px;
+    display: block;
+    font-size: 20px;
+}
+
+input[type=text]:hover{
+    border: 2px solid red;
+}
+
+input[type=email]{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    height: 25px;
+    padding: 10px 10px;
+    display: block;
+    font-size: 20px;
+}
+
+input[type=email]:hover{
+    border: 2px solid red;
+}
+
+.textarea{
+    border: 2px solid #F6BE00;
+    border-radius: 15px;
+    height: 80px;
+    padding: 10px 10px;
+    display: block;
+    font-size: 20px;
+    resize:none;
+}
+
+.textarea:hover{
+    border: 2px solid red;
+}
+
+input[type=submit]{
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #F6BE00;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: 0.3s ease;
+    margin-right:15px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover{
+    background-color: #F6BE00;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+input[type=reset]{
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #F6BE00;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+input[type=reset]:hover{
+    background-color: #F6BE00;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+
+.ctext {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.ctext h3{
+    font-size: 50px;
+    margin-left:10px;
+    color:#F6BE00;
+}
+
+.ctext h4{
+    padding-top: 10px;
+    font-size:35px;
+    color:red;
+    margin: 0px 10px;
+}
+
+.ctext a{
+    color:red;
+    text-decoration: none;
+}
+
+@media screen and (min-width:300px) and (max-width:414px) {
+
+.navbar{
+    display:block;
+    position: absolute;
+}
+
+.navbar ul a{
+    display:block;
+    width:100%; 
+    border: 1px solid #F6BE00;
+}
+.navbar ul a li{
+    font-size: 25px;   
+}
+
+.navbar ul a li:hover{
+    background-color: black;
+}
+
+.logo-image{
+    display: none;
+}
+
+.big-logo{
+    transform: scale(0.6,0.6);
+    height: 600px;
+}
+.tekst1{
+    display: none;
+}
+
+.chicken{
+    margin-left: 100px;
+}
+
+.pig{
+    margin-left: 100px;
+}
+
+.tekst h3{
+    font-size: 20px;
+}
+
+.chicken2{
+    height:30px;
+    width: 30px;
+}
+
+.logo2{
+    height: 50px;
+    width: 50px;
+    left:150px;
+    top:610px;
+}
+
+.plate2{
+    height: 30px;
+    width: 30px;
+    left:300px;
+}
+
+@keyframes chicky{
+    0%{left:10px;
+        background-image:url('images/chicken.png');}
+    50%{left:160px;
+        background-image:url('images/chicken.png');}
+    51%{left:160px;
+        background-image:url('images/cooked.png');}
+    100%{left:300px;
+        background-image:url('images/cooked.png');       
+        z-index: 1;}
+}
+
+.tabelaproizvodi{
+    display:none;
+}
+
+.mainproizvodi{
+    height: 1450px;
+    width:100%;
+}
+
+.marginphone{
+    margin-top:140px;
+    width: 100%;
+}
+
+.slikafon1{  
+    height: 120px;
+    width: 120px;
+    background-image: url('images/pljeskavicaphone.png');
+    background-size: cover;
+    margin-left: 140px;
+    display: flex;
+}
+
+.tekstfon1{
+    color: #F6BE00;
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+
+.tekstfon1 h1{
+   font-size:30px;
+   color:red;
+}
+
+.slikafon2{  
+    height: 120px;
+    width: 120px;
+    background-image: url('images/belomesophone.png');
+    background-size: cover;
+    margin-left: 140px;
+    display: flex;
+}
+
+.tekstfon2{
+    color: #F6BE00;
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+
+.tekstfon2 h1{
+   font-size:30px;
+   color:red;
+}
+
+.slikafon3{  
+    height: 120px;
+    width: 120px;
+    background-image: url('images/cevapiphone.png');
+    background-size: cover;
+    margin-left: 140px;
+    display: flex;
+}
+
+.tekstfon3{
+    color: #F6BE00;
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+
+.tekstfon3 h1{
+   font-size:30px;
+   color:red;
+}
+
+.slikafon4{  
+    height: 120px;
+    width: 120px;
+    background-image: url('images/palacinkaphone.png');
+    background-size: cover;
+    margin-left: 140px;
+    display: flex;
+}
+
+.tekstfon4{
+    color: #F6BE00;
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+
+.tekstfon4 h1{
+   font-size:30px;
+   color:red;
+}
+
+.kontakt{
+    height: 700px;
+}
+
+.form h2{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.form p{
+    font-size: 18px;
+}
+
+input[type=submit]{
+   width:100px;
+   height: 25px;
+   font-size:15px;
+}
+
+input[type=reset]{
+    width:100px;
+    height: 25px;
+    font-size:15px;
+ }
+
+.textarea{
+    height: 50px;
+    width:200px;
+    font-size:14px;
+}
+
+.ctext h3{
+    font-size: 15px;
+}
+.ctext h4{
+    font-size: 10px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+.navbar ul a li {
+    font-size: 24px;
+}
+
+.logo2{
+    left:260px;
+    top:630px;
+}
+.tekst1{
+    margin-right: 20px;
+    font-size: 55px;
+}
+
+.plate2{
+    left:650px;
+}
+
+@keyframes chicky{
+    0%{left:10px;
+        background-image:url('images/chicken.png');}
+    50%{left:300px;
+        background-image:url('images/chicken.png');}
+    51%{left:300px;
+        background-image:url('images/cooked.png');}
+    100%{left:650px;
+        background-image:url('images/cooked.png');       
+        z-index: 1;}
+}
+
+.tabelaproizvodi{
+    width: 100%;
+}
+
+.tekstfon1{
+    display: none;
+}
+
+.tekstfon2{
+    display: none;
+}
+
+.tekstfon3{
+    display: none;
+}
+
+.tekstfon4{
+    display: none;
+}
+
+.slika1:hover{
+    font-size: 28px;
+}
+
+.slika2:hover{
+    font-size: 28px;
+}
+
+.slika3:hover{
+    font-size: 28px;
+}
+
+.slika4:hover{
+    font-size: 28px;
+}
+
+.textarea{
+    width: 400px;
+}
+
+.ctext h3{
+    font-size: 25px;
+}
+.ctext h4{
+    font-size: 20px;
+}
+}
