@@ -199,11 +199,11 @@ body{
     background-size: cover;
     display: flex;
 }
-.tabelaproizvodi h2{
+.proizvodimeni{
     color:red;
     text-align:center;
 }
-.tabelaproizvodi p{
+.proizvodimeni1{
     color:yellow;
     text-align:center;
 }
