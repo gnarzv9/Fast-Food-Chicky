@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: - https://fastfoodchicky.000webhostapp.com/public_html/sitemap.xml
