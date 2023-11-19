@@ -23,10 +23,7 @@ body{
 
 .navbar ul{
     list-style:none;
-    padding: 0px;
-    margin: 0px;
     text-align: center;
-
 }
 
 .navbar ul a{
@@ -38,7 +35,6 @@ body{
     color: #d13617;
     font-size: 30px;
     font-weight: bold;
-    margin: 10px 12px;
     padding: 10px 15px;
     cursor:pointer;
     transition: 0.3s ease;
@@ -656,7 +652,6 @@ input[type=reset]{
     font-size: 10px;
 }
 
-}
 
 @media screen and (min-width:768px) and (max-width:992px) {
 
@@ -734,5 +729,4 @@ input[type=reset]{
 }
 .ctext h4{
     font-size: 20px;
-}
 }
