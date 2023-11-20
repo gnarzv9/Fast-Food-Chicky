@@ -442,6 +442,10 @@ input[type=reset]:hover{
     text-decoration: none;
 }
 
+.fb-root{
+    width:220px;
+}
+
 @media screen and (min-width:300px) and (max-width:414px) {
 
 .navbar{
@@ -729,4 +733,5 @@ input[type=reset]{
 }
 .ctext h4{
     font-size: 20px;
+}
 }
